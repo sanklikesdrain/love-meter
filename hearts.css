@@ -1,0 +1,46 @@
+.heart {
+    position: fixed;
+    pointer-events: none;
+    animation: float 8s ease-in-out infinite;
+    opacity: 0.4;
+    z-index: -1;
+}
+
+.heart::before,
+.heart::after {
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 25px;
+    background-color: #ff69b4;
+    border-radius: 15px 15px 0 0;
+}
+
+.heart::before {
+    left: 15px;
+    transform: rotate(-45deg);
+    transform-origin: 0 100%;
+}
+
+.heart::after {
+    left: 0;
+    transform: rotate(45deg);
+    transform-origin: 100% 100%;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(100vh) rotate(0deg);
+        opacity: 0;
+    }
+    20% {
+        opacity: 0.4;
+    }
+    80% {
+        opacity: 0.4;
+    }
+    100% {
+        transform: translateY(-100px) rotate(360deg);
+        opacity: 0;
+    }
+} 

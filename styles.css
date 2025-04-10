@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    background-color: #fff5f7;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(45deg, #fff5f7 0%, #ffe4e9 100%);
+}
+
+.container {
+    background-color: white;
+    padding: 2.5rem;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(255, 105, 180, 0.1);
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+}
+
+h1 {
+    color: #ff69b4;
+    margin-bottom: 2rem;
+    font-size: 2.8rem;
+    font-family: 'Comfortaa', cursive, sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+input {
+    padding: 0.8rem 1rem;
+    border: 2px solid #ffb6c1;
+    border-radius: 12px;
+    font-size: 1rem;
+    outline: none;
+    transition: all 0.3s ease;
+    font-weight: 500;
+    background-color: #fff9fa;
+}
+
+input:focus {
+    border-color: #ff69b4;
+    box-shadow: 0 0 0 3px rgba(255, 105, 180, 0.1);
+}
+
+button {
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 12px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-bottom: 2rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+button:hover {
+    background-color: #ff1493;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(255, 105, 180, 0.3);
+}
+
+.meter {
+    width: 100%;
+    height: 20px;
+    background-color: #ffb6c1;
+    border-radius: 12px;
+    overflow: hidden;
+    margin-bottom: 1.5rem;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.meter-fill {
+    height: 100%;
+    width: 0%;
+    background: linear-gradient(90deg, #ff69b4, #ff1493);
+    transition: width 1s ease;
+}
+
+#percentage {
+    font-size: 2.5rem;
+    color: #ff69b4;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    font-family: 'Comfortaa', cursive, sans-serif;
+}
+
+#message {
+    color: #666;
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 1.5;
+} 

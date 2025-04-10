@@ -1,0 +1,21 @@
+{
+  "name": "love-meter",
+  "version": "1.0.0",
+  "description": "A fun love meter that calculates compatibility between two names",
+  "main": "index.html",
+  "scripts": {
+    "start": "http-server -p 3000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "love",
+    "meter",
+    "compatibility",
+    "fun"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+} 

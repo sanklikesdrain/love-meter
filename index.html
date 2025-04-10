@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Meter</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;600&family=Quicksand:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="hearts.css">
+</head>
+<body>
+    <div id="hearts-container"></div>
+    <div class="container">
+        <h1>Love Meter</h1>
+        <div class="input-container">
+            <input type="text" id="name1" placeholder="First person's name">
+            <input type="text" id="name2" placeholder="Second person's name">
+        </div>
+        <button id="calculate">Calculate Love</button>
+        <div class="result-container">
+            <div class="meter">
+                <div class="meter-fill" id="meter-fill"></div>
+            </div>
+            <p id="percentage">0%</p>
+            <p id="message"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
