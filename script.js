@@ -85,15 +85,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
         let message = '';
         if (loveScore < 20) {
-            message = "Maybe it's not meant to be...";
+            message = "don't even bother bru ghost each other🤣";
         } else if (loveScore < 40) {
-            message = "There might be a spark!";
+            message = "if you want 🙄";
         } else if (loveScore < 60) {
-            message = "You two could be a good match!";
+            message = "hold on y'all might be on to something 😮";
         } else if (loveScore < 80) {
-            message = "Strong chemistry detected!";
+            message = "this could go somewhere 🤭";
         } else {
-            message = "Perfect match! ❤️";
+            message = "perfect match! ❤️";
         }
 
         messageText.textContent = message;
